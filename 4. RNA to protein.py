@@ -1,6 +1,6 @@
 def rna_to_protein(rna):
 ### RNA to protein translation for up to 10 kbs. The code at the bottom is because Rosalind wants the answer as a file (copying/pasting doesn't work)
-so I wrote a new file within the program. If just looking for the protein sequence, can run without that ###
+### so I wrote a new file within the program. If just looking for the protein sequence, can run without that ###
     rnacodon = {"UUU" : "F", "CUU" : "L", "AUU" : "I", "GUU" : "V", "UUC" : "F", "CUC" : "L", "AUC" : "I",
 "GUC" : "V","UUA" : "L","CUA" : "L","AUA" : "I","GUA" : "V","UUG" : "L","CUG" : "L","AUG" : "M","GUG" : "V", "UCU" : "S",
 "CCU" : "P", "ACU" : "T", "GCU" : "A", "UCC" : "S", "CCC" : "P", "ACC" : "T", "GCC" : "A", "UCA" : "S", "CCA" : "P", "ACA" : "T",
